@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Thu, 11 Feb 2016 15:56:30 +0100
+Source: linux-upstream
+Binary: linux-image-3.8.13-bone79 linux-headers-3.8.13-bone79 linux-firmware-image-3.8.13-bone79 linux-libc-dev
+Architecture: armhf all
+Version: 1cross
+Distribution: trusty
+Urgency: low
+Maintainer: Anonymous <root@ubuntu>
+Changed-By: Anonymous <root@ubuntu>
+Description: 
+ linux-firmware-image-3.8.13-bone79 - Linux kernel firmware, version 3.8.13-bone79
+ linux-headers-3.8.13-bone79 - Linux kernel headers for 3.8.13-bone79 on ${kernel:debarch}
+ linux-image-3.8.13-bone79 - Linux kernel, version 3.8.13-bone79
+ linux-libc-dev - Linux support headers for userspace development
+Changes: 
+ linux-upstream (1cross) trusty; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1: 
+ cee9497cd2211cb01f4a832280ad170a645572ed 118712 linux-firmware-image-3.8.13-bone79_1cross_armhf.deb
+ 6bb68ce5addeeb34300cb7a1b72620a51016ed85 6099814 linux-headers-3.8.13-bone79_1cross_armhf.deb
+ 62619596f380dc23753dd5a69b9771b248a7e6fe 672772 linux-libc-dev_1cross_armhf.deb
+ ce7cb51744b9e644db826c15841ee87ed975a7bf 13857124 linux-image-3.8.13-bone79_1cross_armhf.deb
+Checksums-Sha256: 
+ 4e071024e0a0a8e4f12520fe224435f6c6f231c8fc654a35d27724dececa30b7 118712 linux-firmware-image-3.8.13-bone79_1cross_armhf.deb
+ 6245b8cf07ce71285cefa31c8b45ce5a8440af67fefb952e83cf4fc36feea716 6099814 linux-headers-3.8.13-bone79_1cross_armhf.deb
+ 6ec3f8a8541246281732e0badc61d3dfba11d02eb9ea31f94658060ac8725f0b 672772 linux-libc-dev_1cross_armhf.deb
+ 2586229a45920db8f9742c0130028b8baa1c1d266686e10c01909e5e7a5918d7 13857124 linux-image-3.8.13-bone79_1cross_armhf.deb
+Files: 
+ 365fe2d122a25c23e027d8f1b04c5917 118712 kernel optional linux-firmware-image-3.8.13-bone79_1cross_armhf.deb
+ b7ea4978e033a1591f9ffaf94a9abf20 6099814 kernel optional linux-headers-3.8.13-bone79_1cross_armhf.deb
+ 54db55b1d6eb9e6376d96430728d7aec 672772 devel optional linux-libc-dev_1cross_armhf.deb
+ f697c2a6508c26bcb29b5b00a8424ad3 13857124 kernel optional linux-image-3.8.13-bone79_1cross_armhf.deb
